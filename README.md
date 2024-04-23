@@ -1,4 +1,5 @@
 Documentation contains class diagram：
+
 ![image](https://github.com/SJHWR/JAVA_final/assets/161080112/b819d957-c47f-489d-ba7e-fd27a56b3f90)
 
 
@@ -28,11 +29,13 @@ Basic function (10 points):
 
 1) Get the data through Rest API and display the data in the UI of the Android application
 2) Users can search for various information using the name of the city
+   
    ![image](https://github.com/SJHWR/JAVA_final/assets/161080112/c43b1600-01dd-443c-b84f-d2f010ecffc7)
 
 Users can use this application to check current weather conditions, temperature, general city information, and city coordinates.As the picture shows.
 
 3) The app can display population and demographic changes, workplace self-sufficiency, and employment rates, etc.
+   
 ![image](https://github.com/SJHWR/JAVA_final/assets/161080112/3feafea1-3451-4f64-8047-5f76150678a4)
 
 
@@ -69,26 +72,32 @@ We would like to request the following four additional features.
 1) Fuzzy query function (2 points)
    
 The fuzzy query function is a feature that allows the user to search for desired results with incomplete or slightly incorrect input. For example, if someone wants to know about the city "Lahti", but due to a typing error he writes "Laht", the fuzzy query will know that you are looking for the city "Lahti" and provide you with the correct search results. And provide you with the correct city information.As shown in the image below.
+
 ![image](https://github.com/SJHWR/JAVA_final/assets/161080112/46a800bf-9ed3-4247-aa60-20383e299fd9)
+
 ![image](https://github.com/SJHWR/JAVA_final/assets/161080112/9c8b2cd1-daef-44d5-91ad-37c1f401fb7e)
 
 
 2) Real-time weather function (2 points)
    
 Real-time weather feature means that the application can display real-time weather conditions, temperature, etc. for the relevant city. For example, the real-time weather function allows the user to find out the weather conditions and temperature of Lahti, where he/she wants to go, so that he/she can prepare the right clothes for his/her trip.As shown in the image below.
+
 ![image](https://github.com/SJHWR/JAVA_final/assets/161080112/941f25a8-efa8-47d9-9f0b-406325af0d3f)
 
 
 3 ）Function to find latitude and longitude (2 points)
 
 The function to find latitude and longitude is to display the longitude and latitude of the searched city in the application to know the geographic location of the city.As shown in the image below.
+
 ![image](https://github.com/SJHWR/JAVA_final/assets/161080112/34c7466f-7088-481a-b439-1b42e571af5f)
 
 
 4) Visualization map function (3 points)
    
 The visual map function refers to displaying geographical information on the map in the form of graphics through code. Through the visual map function, users can intuitively view the distribution of geographical information on the map.As shown in the image below.
+
 ![image](https://github.com/SJHWR/JAVA_final/assets/161080112/5861c901-acf3-4105-88c3-65303273daa0)
+
 ![image](https://github.com/SJHWR/JAVA_final/assets/161080112/8f59d436-21cb-4fd5-a8a4-0786773058ac)
 
 
