@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cityNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City Name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/currentWeatherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Weather:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@id/cityNameTextView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/cityTemperatureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature"
+        android:textSize="20sp"
+        android:layout_below="@id/currentWeatherTextView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/cityWeatherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather"
+        android:textSize="20sp"
+        android:layout_below="@id/cityTemperatureTextView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/informationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City Information (2022):"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@id/cityWeatherTextView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/cityPopulationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Population"
+        android:textSize="20sp"
+        android:layout_below="@id/informationTextView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/cityChangeInPopulationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change in Population"
+        android:textSize="20sp"
+        android:layout_below="@id/cityPopulationTextView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/cityWorkplaceSelfSufficiencyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Workplace self-sufficiency"
+        android:textSize="20sp"
+        android:layout_below="@id/cityChangeInPopulationTextView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/employmentRateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employment rate"
+        android:textSize="20sp"
+        android:layout_below="@id/cityWorkplaceSelfSufficiencyTextView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_below="@id/employmentRateTextView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/cityLatitudeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude"
+        android:textSize="20sp"
+        android:layout_below="@id/locationTextView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/cityLongitudeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude"
+        android:textSize="20sp"
+        android:layout_below="@id/cityLatitudeTextView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See in map"
+        android:layout_below="@id/cityLongitudeTextView"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+</RelativeLayout>

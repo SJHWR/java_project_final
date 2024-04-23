@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which city do you want to know about?"
+        android:textSize="24dp"
+        android:layout_below="@id/textView1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search city information:"
+        android:textSize="24dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@id/textView2"/>
+
+    <EditText
+        android:id="@+id/editCityInput"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the city you want to search"
+        android:textSize="20sp"
+        android:layout_below="@id/textView3"
+        android:layout_alignStart="@id/textView3"/>
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textSize="20sp"
+        android:layout_below="@id/editCityInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+</RelativeLayout>
